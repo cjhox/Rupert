@@ -1,0 +1,9 @@
+client
+client.application
+client.domain
+client.ui
+server
+server.domain
+shared.com
+shared.game
+shared.resource

@@ -1,0 +1,44 @@
+STATUS | wrapper  | 2015/04/09 14:37:30 | --> Wrapper Started as Console
+STATUS | wrapper  | 2015/04/09 14:37:30 | Launching a JVM...
+INFO   | jvm 1    | 2015/04/09 14:37:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/04/09 14:37:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/04/09 14:37:33 | 
+INFO   | jvm 1    | 2015/04/09 14:37:33 | 
+INFO   | jvm 1    | 2015/04/09 14:37:33 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           could not be loaded:
+INFO   | jvm 1    | 2015/04/09 14:37:33 |             C:\Users\Joel\Desktop\Projekte\Rupert\Git\rupert\Code\Apache ActiveMQ\apache-activemq-5.4.3\bin\win32\..\..\bin\win32\wrapper.dll
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           This is a 64-bit JVM.
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           Reported cause:
+INFO   | jvm 1    | 2015/04/09 14:37:33 |             C:\Users\Joel\Desktop\Projekte\Rupert\Git\rupert\Code\Apache ActiveMQ\apache-activemq-5.4.3\bin\win32\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+INFO   | jvm 1    | 2015/04/09 14:37:33 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2015/04/09 14:37:33 | 
+INFO   | jvm 1    | 2015/04/09 14:37:33 | Java Runtime: Oracle Corporation 1.8.0_40 C:\Program Files\Java\jre1.8.0_40
+INFO   | jvm 1    | 2015/04/09 14:37:33 |   Heap sizes: current=123904k  free=115383k  max=466432k
+INFO   | jvm 1    | 2015/04/09 14:37:33 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Xmx512m -Djava.library.path=../../bin/win32 -Dwrapper.key=ZRxpaLwvDV0FU6Ga -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7676 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2015/04/09 14:37:33 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2015/04/09 14:37:33 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2015/04/09 14:37:33 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2015/04/09 14:37:33 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3e7222fb: startup date [Thu Apr 09 14:37:33 CEST 2015]; root of context hierarchy
+INFO   | jvm 1    | 2015/04/09 14:37:35 |  WARN | destroyApplicationContextOnStop parameter is deprecated, please use shutdown hooks instead
+INFO   | jvm 1    | 2015/04/09 14:37:35 |  INFO | PListStore:..\..\data\localhost\tmp_storage started
+INFO   | jvm 1    | 2015/04/09 14:37:35 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[..\..\data\kahadb]
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | KahaDB is version 3
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | Recovering from the journal ...
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | Recovery replayed 2 operations from the journal in 0.047 seconds.
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | ActiveMQ 5.4.3 JMS Message Broker (localhost) is starting
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | For help or more information please see: http://activemq.apache.org/
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | Listening for connections at: tcp://Cjhox:61616
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | Connector openwire Started
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | ActiveMQ JMS Message Broker (localhost, ID:Cjhox-39555-1428583056147-0:1) started
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | jetty-7.1.6.v20100715
+INFO   | jvm 1    | 2015/04/09 14:37:36 |  INFO | ActiveMQ WebConsole initialized.
+INFO   | jvm 1    | 2015/04/09 14:37:37 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2015/04/09 14:37:37 |  INFO | ActiveMQ Console at http://0.0.0.0:8161/admin
+INFO   | jvm 1    | 2015/04/09 14:37:37 |  INFO | ActiveMQ Web Demos at http://0.0.0.0:8161/demo
+INFO   | jvm 1    | 2015/04/09 14:37:37 |  INFO | RESTful file access application at http://0.0.0.0:8161/fileserver
+INFO   | jvm 1    | 2015/04/09 14:37:38 |  INFO | Started SelectChannelConnector@0.0.0.0:8161

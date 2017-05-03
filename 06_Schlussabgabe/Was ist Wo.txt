@@ -1,0 +1,44 @@
+Im Folgenden wird der Dateipfad zu den einzelnen Dokumenten der Schlussabgabe im Ordner rupert beschrieben.
+
+	1. Projektplan:	
+		rupert\02_Projektplan\Projektplan Rupert
+
+	2. Anforderungsspezifikation:	
+		rupert\03_Anforderungsspezifikation\Anforderungsspezifikation Rupert
+
+	3. Domainanalyse: 
+		rupert\03_Anforderungsspezifikation\Domainanalyse Rupert
+
+	4. Entwurfsbeschreibung: 
+		rupert\04_Architektur\SoftwareArchitekturRupert
+
+	5. Testspezifikationen: 
+		rupert\04_Architektur\SystemtestspezifikationRupert
+	   Testprotokolle: 
+		rupert\04_Architektur\SystemtestprotokollRupert* (insgesammt drei Dokumente, das Datum im Dokumentname ist das Datum der Testdurchführung.)
+
+	6. Installationsanleitung: Entfällt, da nur ein .jar-File. Erklärung im Projektplan.
+		a.) Ausführbares jar:
+			rupert\Code\Projekt Rupert\Rupert
+
+	7. Bildschirmabzüge: 
+		rupert\06_Schlussabgabe\BildschirmabzügeRupert
+
+	8. Sourcecode: 
+		rupert\Code\Projekt Rupert (ist auch der Pfad des Projektes zum Import in Eclipse).
+
+	9. Projektmonitoring
+		a.) Zeiterfassung und -auswertung: 
+			Teil des Projektplanes
+		b.) Codestatistik: 
+			Teil der Schlusspräsentation
+		c.) Soll/Ist Vergleiche: 
+			Teil der Schlusspräsentation
+		d.) Persönliche Berichte: 
+			rupert\06_Schlussabgabe\ReflexionRupert
+
+	10. Folien der Schlusspräsentation: 
+		rupert\05_Präsentation\Schlusspräsentation
+
+	11. Eigenständigkeitserklärung: 
+		rupert\06_Schlussabgabe\EigenständigkeitserklärungRupert

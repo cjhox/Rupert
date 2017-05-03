@@ -1,0 +1,4 @@
+if(phase instanceof MovePhase){
+	@SuppressWarnings("unchecked")
+	List<MoveDraw> test =  (List<MoveDraw>) phase.getDraws();
+}
